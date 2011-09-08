@@ -1,0 +1,23 @@
+====== GitKraken ======
+
+GitKraken is a simple git client for the GNOME desktop environment.
+
+====== Dependencies =====
+
+GitKraken depends on the following packages:
+ * Python, version 2.6 or above
+ * PyGI
+ * GTK+2 or GTK+3
+
+===== Installing and Running =====
+
+To run GitKraken, either execute it directly from the source folder:
+
+    $ cd gitkraken
+    $ ./gitkraken
+
+or install it system-widge (must install as root to install system-wide):
+
+    $ cd gitkraken
+    $ sudo python setup.py install
+    $ gitkraken

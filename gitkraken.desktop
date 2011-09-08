@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=0.1-development
+Name=GitKraken
+GenericName=GitKraken
+Comment=Git client for the GNOME desktop environment
+Icon=GitKraken
+Exec=/usr/bin/gitkraken.py
+Exec=~/Projects/gitkraken/gitkraken.py
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Development;
+StartupNotify=true

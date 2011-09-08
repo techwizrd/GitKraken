@@ -1,0 +1,48 @@
+=======================
+GitKraken Hacking Guide
+=======================
+
+Testing
+-------
+
+Unfortunately, we have no tests. Perhaps you'd like to write some?
+
+Coding style
+------------
+
+In general, follow PEP 8 <http://www.python.org/dev/peps/pep-0008/>.
+
+To check the cleanliness of your code, run:
+
+  make lint
+
+If Pyflakes shows any warnings, the above ``make`` command will fail. The
+Pyflakes checker and the PEP8 checkers can be run seperately by using
+``make pyflakes`` and ``make pep8`` respectively. In order to find all the PEP8
+violations in a certain file, use:
+
+  ./scripts/pep8.py --repeat FILENAME
+  
+Copyright
+---------
+
+All modules should begin with the following header::
+
+# -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# GitKraken - a git client for the GNOME desktop
+# Copyright (c) 2011 - Kunal Sarkhel
+#
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later
+# version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program.  If not, see <http://www.gnu.org/licenses/>.
+# -----------------------------------------------------------------------------
