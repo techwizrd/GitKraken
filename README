@@ -16,7 +16,7 @@ To run GitKraken, either execute it directly from the source folder:
     $ cd gitkraken
     $ ./gitkraken
 
-or install it system-widge (must install as root to install system-wide):
+or install it system-wide (must install as root to install system-wide):
 
     $ cd gitkraken
     $ sudo python setup.py install
